@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'MyFont';
+  /* ttf格式的format是truetype，其他的不生效 */
+  src: url('./my-font.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+.hello {
+  font-family: 'MyFont';
+}
